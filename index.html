@@ -1,15 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./dist/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- inter -->
+  <link rel="stylesheet" href="./static/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
 </head>
 <body>
-    <div class="flex justify-center place-items-center">
-        <h1 class="text-3xl underline font-bold">Projects</h1>
-    </div>
+<style>
+    body {
+    background-color: #f3f3f3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23050505' fill-opacity='0.14'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+.abxnth {
+  background: linear-gradient(to right, rgb(0, 153, 255) 20%, rgb(67, 181, 238) 40%, rgb(92, 173, 236)60%, rgb(173, 224, 246)0%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+}
+
+.avatar {
+    border-color: #77cf55;
+}
+
+.font-roboto-mono {
+  font-family: 'Roboto Mono';
+}
+
+</style>
+<!-- avatar -->
+<div class="text-center align-items-center place-content-center flex justify-center pt-64">
+    <img src="../img/avatar.jpg" alt="avatar" class="avatar rounded-full border-4">
+</div>
+<!-- abxnth -->
+<div class="justify-center flex">
+    <h1 class="text-center font-inter font-semibold text-3xl pt-5 abxnth">abxnth</h1>
+</div>
+<!-- description -->
+<div class="justify-center flex">
+    <h1 class="text-center font-inter font-medium text-2xl pt-4">(aspiring) <a href="https://en.wikipedia.org/wiki/Web_developer"><span class="underline decoration-zinc-300">web developer</span></a></h1>
+</div>
+
+<div class="justify-center flex leading-relaxed space-x-2 pt-2 font-roboto-mono">
+    <a href="https://github.com/SpreeHertz?tab=repositories"><p class="text-gray-400 hover:text-gray-600">projects</p></a>
+    <a href="./socials.html"><p class="text-gray-400 hover:text-gray-600">socials</p></a>
+    <a href="https://github.com/SpreeHertz"><p class="text-gray-400 hover:text-gray-600">github</p></a>
+    <a href="https://github.com/abhxneeth/abhxneeth.github.io">source</a>
+</div>
+
 </body>
 </html>
